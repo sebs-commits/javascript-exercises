@@ -1,0 +1,11 @@
+Now that you have cloned the repository and run npm install to install Jest, complete these exercises in the following order:
+
+    - helloWorld (This exercise is intentionally very simple to ensure that you have set up everything properly!)
+    - repeatString
+    - reverseString
+    - removeFromArray
+    - sumAll
+    - leapYears
+    - tempConversion
+
+Once you have a working solution, see how it compares to the exercise’s given solution. Solutions for the exercises can be found in the ‘solution’ folder of each exercise.
