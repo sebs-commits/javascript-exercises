@@ -2,23 +2,23 @@ const repeatString = require('./repeatString')
 
 describe('repeatString', () => {
   // Test 1
-  test.skip('repeats the string', () => {
+  test('repeats the string', () => {
     expect(repeatString('hey', 3)).toEqual('heyheyhey');
   });
   // Test 2
-  test.skip('repeats the string many times', () => {
+  test('repeats the string many times', () => {
     expect(repeatString('hey', 10)).toEqual('heyheyheyheyheyheyheyheyheyhey');
   });
   // Test 3
-  test.skip('repeats the string 1 times', () => {
+  test('repeats the string 1 times', () => {
     expect(repeatString('hey', 1)).toEqual('hey');
   });
   // Test 4
-  test.skip('repeats the string 0 times', () => {
+  test('repeats the string 0 times', () => {
     expect(repeatString('hey', 0)).toEqual('');
   });
   // Test 5
-  test.skip('returns ERROR with negative numbers', () => {
+  test('returns ERROR with negative numbers', () => {
     expect(repeatString('hey', -1)).toEqual('ERROR');
   });
   // Test 6
@@ -37,7 +37,7 @@ describe('repeatString', () => {
     was randomly generated. */
     expect(repeatString('hey', number).match(/((hey))/g).length).toEqual(number);
   });
-  test.skip('works with blank strings', () => {
+  test('works with blank strings', () => {
     expect(repeatString('', 10)).toEqual('');
   });
 });
